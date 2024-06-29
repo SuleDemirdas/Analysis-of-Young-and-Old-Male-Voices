@@ -18,6 +18,7 @@ This project utilizes digital signal processing techniques to classify male voic
 
 - **/audio_samples/**: Contains the audio files used in the project for analysis.
 - **/filter/**: Contains the designed IIR Butterworth filter in `.mat` format.
-- **/notebook/**: Contains a Jupyter notebook that integrates all steps of the analysis.
+- **/codes/**: Contains a Jupyter notebook that integrates all steps of the analysis and a filter file for butterworth IIR filter.
   - `voice_analysis.ipynb`: Main notebook that includes loading and normalizing audio files, FFT and frequency spectrum calculation, filtering, power calculation, and pitch analysis.
+  - `bandpassX2.mat`: Butterworth IIR filter designed by using pydfa library for filtering desired frequencies.
 - **report/**: Contains the full project report in PDF format, detailing the methodology, analysis, results, and conclusions.
